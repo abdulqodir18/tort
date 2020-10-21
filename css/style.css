@@ -1,0 +1,290 @@
+
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+  url('../fonts/playfair-display-v21-latin-regular.woff2') format('woff2'),
+  url('../fonts/playfair-display-v21-latin-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 500;
+  src:
+  url('../fonts/playfair-display-v21-latin-500.woff2') format('woff2'),
+  url('../fonts/playfair-display-v21-latin-500.woff') format('woff'); */
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
+  src:
+  url('../fonts/playfair-display-v21-latin-600.woff2') format('woff2'),
+  url('../fonts/playfair-display-v21-latin-600.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  src:
+  url('../fonts/playfair-display-v21-latin-700.woff2') format('woff2'),
+  url('../fonts/playfair-display-v21-latin-700.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'),
+  url('../fonts/open-sans-v18-latin-regular.woff2') format('woff2'),
+  url('../fonts/open-sans-v18-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
+  url('../fonts/open-sans-v18-latin-600.woff2') format('woff2'),
+  url('../fonts/open-sans-v18-latin-600.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'),
+  url('../fonts/open-sans-v18-latin-700.woff2') format('woff2'),
+  url('../fonts/open-sans-v18-latin-700.woff') format('woff');
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fbebea;
+  color: #222;
+  background-image: url("../img/4-layers.png");
+  background-position: calc(50% + 130px) 105px;
+  background-repeat: no-repeat;
+  background-size: 1168px auto;
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1260px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.site-header {
+  padding: 105px 0 73px;
+}
+.container {
+}
+.site-header__container {
+  display: flex;
+  align-items: center;
+}
+.site-header__nav {
+  display: flex;
+  align-items: flex-start;
+}
+.site-header__logo {
+  width: 67px;
+  height: 18px;
+  margin-right:47px;
+}
+.site-header__logo--img {
+  display: block;
+}
+.site-header__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.site-header__item {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.site-header__link {
+  text-decoration: none;
+  color: #2d2829;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 26.66px;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  white-space: nowrap;
+}
+.site-header__link--red {
+  color: #f50049;
+}
+.site-header__tel-ink {
+  white-space: nowrap;
+  text-decoration: none;
+  color: #2d2829;
+  font-size: 15px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 39.53px;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-left: auto;
+}
+.site-main {
+}
+.hero {
+  padding: 91px 0 263px 0;
+}
+.container {
+}
+.hero__container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: left;
+
+}
+.intro {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: left;
+  margin-bottom: 128px;
+}
+.intro__title {
+  margin: 0;
+  margin-bottom: 31px;
+  color: #2e2829;
+  font-family: "Playfair Display";
+  font-size: 78px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 70px;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 0.44px;
+  line-height: normal;
+  width: 353px;
+}
+.intro__text {
+  margin: 0;
+  margin-bottom: 58px;
+  color: #32313d;
+  font-family: 'Bad Script', cursive;
+  font-size: 41px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 77.95px;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.intro__link {
+  padding: 20px 67px;
+  border-radius: 26px;
+  background-color: #f50049;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+  /* Text style for "В, ыбрать" */
+  font-style: normal;
+}
+.intro-wrapper {
+  display: flex;
+  align-items: center;
+}
+.intro-wrapper__text {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 18px;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.intro-wrapper__text--nature {
+  margin-right: 70px;
+  width: 160px;
+}
+.intro-wrapper__text--nature::before {
+  content: "";
+  display: block;
+  width: 55px;
+  height: 55px;
+  background-image: url("../img/иконка_ингредиенты.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 16px;
+}
+.intro-wrapper__text--present {
+  width: 190px;
+}
+.intro-wrapper__text--present::before {
+  content: "";
+  display: block;
+  width: 55px;
+  height: 55px;
+  background-image: url("../img/иконка_доставка.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 16px;
+}
